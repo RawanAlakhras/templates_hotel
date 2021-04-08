@@ -1,0 +1,252 @@
+/* 
+     Author name :Rawan Alakhras
+     Author contact :rralakhras@gmail.com
+ */
+ *{
+     box-sizing: border-box;
+ }
+ 
+ body{
+     margin: 0;
+     padding: 0;
+     font-family: "Raleway", Arial, Helvetica, sans-serif;
+     font-size: 15px;
+    line-height: 1.5;
+ }
+ nav{
+     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+ }
+ nav ul{
+     list-style: none;
+     margin: 0px;
+     padding: 0px;
+    display: flex;
+ }
+ nav ul li {
+    
+     padding: 10px 16px;
+     text-align: center;
+    
+ }
+ nav ul li a{
+     text-decoration: none;
+     font-size: 18px;
+     color: #000;
+     border: none;
+     margin: 0;
+     padding: 0;
+ }
+ nav ul li a i{
+     padding-right: 16px;
+ }
+ .logo-color{
+     background-color: #F44336;
+  
+ }
+ .logo-color a{
+     color: #fff;
+ }
+ .book-color{
+   background-color:#f1f1f1;
+ }
+ nav ul li:hover{
+    background-color: #CCCCCC;
+ }
+ .hotel-img{
+     position: relative;
+     width: 100%;
+     height: 720px;
+ }
+ .box-hotel{
+     position: absolute;
+     top: 40%;
+     left: 1%;
+     width: 50%;
+     padding-bottom: 20px;
+     background-color: #fff;
+ }
+ .hotel-name{
+     background-color: #F44336;
+     color: #fff;
+     padding:0.01em 16px;
+     
+ }
+ .box-body{
+     display: flex;
+     justify-content: space-between;
+     background-color: #fff;
+     width: 100%;
+     padding: 10px;
+     text-align: left;
+  
+ }
+ input{
+     border:1px solid #ccc;
+     padding: 8px;
+     width: 100%;
+     display: block;
+     margin-top: 8px;
+ }
+ .box-body .left,
+ .box-body .right{
+     width: 100%;
+     padding: 10px;
+ }
+ .box-body button{
+    background-color: #616161;
+    color: #fff;
+    padding: 8px 16px;
+    text-align: center;
+    margin-left: 10px;
+    border: none;
+ }
+ .box-body button:hover{
+    background-color: #CCCCCC;
+    color: #000;
+ }
+ /* rooms section  */
+ .rooms{
+     background-color: #F1F1F1;
+     padding: 10px;
+ }
+ .rooms-row{
+     display: flex;
+     justify-content: space-between;
+ }
+ .col {
+     width: 100%;
+     padding:5px 8px;
+     position: relative;
+ }
+ .black-btn{
+     background-color: #000;
+     color: #fff;
+     width: 100%;
+     border: none;
+     padding: 8px 16px;
+ }
+ .black-btn:hover{
+    background-color: #ccc;
+    color:#000;
+ }
+ .card{
+     background-color: #fff;
+
+ }
+ .card-body{
+    padding:10px;
+ }
+ .card img{
+     width: 100%;
+ }
+ .card h6{
+     opacity: .6;
+ }
+ /* about section  */
+ .about{
+    background-color: #F1F1F1;
+    padding: 10px;
+}
+.first-section{
+    display: flex;
+    justify-content: space-between;
+}
+.first-section img{
+    width: 100%;
+}
+.section-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: large;
+}
+.section-2 i{
+    color:#F44336;
+    padding:20px 5px;
+}
+.section-3{
+    background-color:#F44336 ;
+    padding:25px 20px;
+    color: #fff;
+    font-size: large;
+}
+.section-3 i{
+    background-color: #FF5722;
+    padding: 8px 16px;
+    margin-right: 10px;
+}
+.section-4{
+    padding: 20px;
+    font-size: large;
+    position: relative;
+}
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.gallery img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.gallery .col p{
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    color: #fff;
+}
+.section-5{
+    padding: 40px 20px;
+    background-color: #000;
+    color: #fff;
+    opacity: .6;
+}
+.section-5:hover{
+    opacity: 1;
+}
+.red-btn{
+    background-color: #F44336;
+    color: #fff;
+    width: 100px;
+}
+.red-btn:hover{
+    background-color: #f1f1f1;
+    color: #000;
+}
+/* contact section */
+.contact{
+    background-color: #F1F1F1;
+    padding: 20px 10px;
+}
+.contact i{
+    color:#F44336 ;
+    padding-right: 20px;
+}
+.contact form *{
+    width: 100%;
+}
+.contact input{
+    padding: 15px 10px;
+    margin-bottom: 12px;
+}
+.contact button{
+    width: 180px;
+    padding: 8px 16px;
+    font-size: 18px;
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+}
+footer p{
+    margin: 15px 0;
+    font-size: large;
+}
